@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [closed]  # This triggers the workflow when a PR is closed
     branches:
-      - EN_2.2.0_AWS_N1_ANG_FE
+      - main
 
 permissions:
   contents: read  # Allow reading contents to access labels
