@@ -12,7 +12,7 @@ permissions:
 
 env: # Centralized commonplace for reusable values
   DOCKERHUB_LOGIN_URL: "https://hub.docker.com/v2/users/login"
-  DOCKERHUB_REPOSITORY: "innoart/genesis"
+  DOCKERHUB_REPOSITORY: "bibianamagdelene/test"
   DOCKER_IMAGE_PREFIX: "EN_2.2.0_AWS_N1_ANG_FE_001"
   DOCKERHUB_TAGS_URL_BASE: "https://hub.docker.com/v2/repositories"
   GITHUB_API_BASE_URL: "https://api.github.com/repos"
