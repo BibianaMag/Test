@@ -35,6 +35,9 @@ jobs:
       - name: Set deployment target
         id: set_env
         run: echo "deploy_target=$DEPLOY_TARGET" >> $GITHUB_OUTPUT
+      - name: Debug deploy_target
+        run: echo "Deploy target is ${{ steps.set_env.outputs.deploy_target }}"
+      
 
       - name: Check out code
         uses: actions/checkout@v3
